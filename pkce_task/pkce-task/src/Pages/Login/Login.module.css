@@ -1,0 +1,35 @@
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 25px;
+    border: 1px solid #084298;
+    border-radius: 10px;
+}
+
+.form-buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.form-buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 45px;
+}
+.form-buttons button.custom-btn{
+    color: #084298;
+    background: transparent;
+    border: 1px solid #084298;
+    outline: 0
+}
+.form-buttons button.custom-btn:hover,
+.form-buttons button.custom-btn:active,
+.form-buttons button.custom-btn:focus{
+    color: #fff;
+    background: #084298;
+}
+/* END STYLING OF BUTTONS */
